@@ -139,6 +139,14 @@ questions:
             type: dict
             attrs:
 # Include{persistenceBasic}
+        - variable: modelcache
+          label: App Model Cache
+          description: Stores the Application Model Cache
+          schema:
+            additional_attrs: true
+            type: dict
+            attrs:
+# Include{persistenceBasic}
 # Include{persistenceList}
 # Include{ingressRoot}
         - variable: main
