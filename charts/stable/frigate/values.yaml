@@ -82,6 +82,11 @@ persistence:
   media:
     enabled: true
     mountPath: /media
+  modelcache:
+    enabled: true
+    type: emptyDir
+    mountPath: /config/model_cache
+
   config:
     # Only enable when not using frigateConfig
     enabled: false
